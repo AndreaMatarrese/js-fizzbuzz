@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #083b4c;
+    color: white;
+    text-align: center;
+}
+h1{
+    margin: 2rem 0;
+}
+.container{
+    max-width: 900px;
+    margin: auto;
+}
+.squares{
+    display: flex;
+    flex-wrap: wrap;
+    gap:1rem;
+
+}
+.sq{
+    height: 5rem;
+    width: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1289B2;
+}
+
+.multi3{
+    background-color: #08D6A0;
+}
+.multi5{
+    background-color: #FFD166;
+}
+.multi3-5{
+    background-color: #F0466F;
+}
